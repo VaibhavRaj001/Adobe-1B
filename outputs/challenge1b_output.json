@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "input_documents": [
+      "South of France - Cities.pdf",
+      "South of France - Cuisine.pdf",
+      "South of France - History.pdf",
+      "South of France - Restaurants and Hotels.pdf",
+      "South of France - Things to Do.pdf",
+      "South of France - Tips and Tricks.pdf",
+      "South of France - Traditions and Culture.pdf"
+    ],
+    "persona": "Travel Planner",
+    "job_to_be_done": "Plan a trip of 4 days for a group of 10 college friends.",
+    "processing_timestamp": "2025-07-25T22:44:54.317486"
+  },
+  "extracted_sections": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 1,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "section_title": "Conclusion",
+      "importance_rank": 2,
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "History",
+      "importance_rank": 3,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "History",
+      "importance_rank": 4,
+      "page_number": 13
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Carcassonne: A Medieval Fortress",
+      "importance_rank": 5,
+      "page_number": 13
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Introduction",
+      "importance_rank": 6,
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Key Attractions",
+      "importance_rank": 7,
+      "page_number": 3
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Key Attractions",
+      "importance_rank": 8,
+      "page_number": 8
+    },
+    {
+      "document": "South of France - History.pdf",
+      "section_title": "Carcassonne: A Medieval Fortress",
+      "importance_rank": 9,
+      "page_number": 6
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "section_title": "Local Experiences",
+      "importance_rank": 10,
+      "page_number": 3
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "Introduction \nPlanning a trip to the South of France requires thoughtful preparation to ensure a \ncomfortable and enjoyable experience. This guide covers everything from packing essentials \nto travel ...",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Tips and Tricks.pdf",
+      "refined_text": "Conclusion \nPacking for a trip to the South of France involves considering the season, planned activities, \nand the needs of both adults and children. By following this comprehensive guide and \nincorp...",
+      "page_number": 9
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History \nAix-en-Provence, founded by the Romans in 123 BC, is known for its elegant architecture, \nvibrant cultural scene, and association with the painter Paul Cézanne. The city's rich history is \nre...",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "History \nCarcassonne is a fortified city in the Languedoc region, known for its well-preserved medieval \narchitecture. The city's history dates back to the Roman period, but it is best known for its \n...",
+      "page_number": 13
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Carcassonne: A Medieval Fortress \nHistory \nCarcassonne is a fortified city in the Languedoc region, known for its well-preserved medieval \narchitecture. The city's history dates back to the Roman peri...",
+      "page_number": 13
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Introduction \nThe South of France, renowned for its picturesque landscapes, charming villages, and \nstunning coastline, is also steeped in history. From ancient Roman ruins to medieval \nfortresses and...",
+      "page_number": 1
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Key Attractions \n• \nOld Port (Vieux-Port): The heart of Marseille, the Old Port has been a bustling harbor \nfor over 2,600 years. Today, it is a lively area filled with cafes, restaurants, and \nmarket...",
+      "page_number": 3
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Key Attractions \n• \nCours Mirabeau: This grand boulevard, lined with plane trees, cafes, and fountains, is \nthe heart of Aix-en-Provence. It is a great place to soak up the city's atmosphere. \n• \nSain...",
+      "page_number": 8
+    },
+    {
+      "document": "South of France - History.pdf",
+      "refined_text": "Carcassonne: A Medieval Fortress \nCarcassonne is a fortified city in the Languedoc region, known for its well-preserved medieval \narchitecture. The city's history dates back to the Roman period, but i...",
+      "page_number": 6
+    },
+    {
+      "document": "South of France - Cities.pdf",
+      "refined_text": "Local Experiences \n• \nBoat Trip to the Calanques: Take a boat trip to the Calanques, a series of stunning \nlimestone cliﬀs and coves along the coast. \n• \nFish Market at the Old Port: Visit the fish ma...",
+      "page_number": 3
+    }
+  ]
+}
