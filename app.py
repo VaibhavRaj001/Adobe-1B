@@ -4,7 +4,7 @@ import re
 import time
 from datetime import datetime
 
-import fitz  # PyMuPDF
+import fitz  
 import numpy as np
 import torch
 from sentence_transformers import SentenceTransformer
@@ -24,12 +24,10 @@ def create_paragraph_chunks(doc):
     """
     chunks = []
     for page_num, page in enumerate(doc, 1):
-        # Extract text and split by double newlines, a common paragraph delimiter
         page_text = page.get_text("text")
         paragraphs = page_text.split('\n\n')
         for para in paragraphs:
             cleaned_para = para.strip()
-            # Filter out very short, likely meaningless chunks
             if len(cleaned_para) > 100:
                 chunks.append({
                     "page_num": page_num,
@@ -43,7 +41,7 @@ def generate_refined_text(chunk_content, query, model):
     sentences = [s.strip() for s in sentences if len(s.strip().split()) > 4]
 
     if not sentences:
-        return chunk_content[:500] # Fallback
+        return chunk_content[:500] 
 
     query_embedding = model.encode(query, convert_to_tensor=True)
     sentence_embeddings = model.encode(sentences, convert_to_tensor=True)
@@ -64,8 +62,6 @@ def main():
     job_to_be_done = input_data['job_to_be_done']['task']
     documents_metadata = input_data['documents']
     
-    # --- THIS IS THE CORRECTED LINE ---
-    # The query is now generated dynamically based on the input file.
     query = f"As a {persona}, I need to {job_to_be_done.lower()}"
     
     print(f"Semantic Query: \"{query}\"\n")

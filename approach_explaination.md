@@ -33,3 +33,26 @@ For the final JSON output:
 -   **`subsection_analysis`**: To provide a more granular answer, we perform a "micro-search" within each top-ranked paragraph to extract the single sentence that is most semantically similar to the user's query.
 
 This entire pipeline is lightweight, deterministic, and fully self-contained within the Docker image, successfully meeting all performance and operational constraints of the hackathon.
+
+---
+
+## 🐳 Docker Instructions
+
+---
+
+### 🏗️ Step 1: Build the Docker Image
+
+docker build -t persona-intel .
+
+### 🏗️ Step 2: Run the Docker Image
+
+#### 🔹 For Linux/macOS (bash):
+docker run --rm -v "$(pwd):/app" persona-intel
+
+
+#### 🔹 For Windows CMD:
+docker run --rm -v %cd%:/app persona-intel
+
+
+#### 🔹 Windows PowerShell:
+docker run --rm -v ${PWD}:/app persona-intel
